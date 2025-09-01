@@ -18,7 +18,7 @@ export default async function Home() {
 
       <main className="container mx-auto px-4 py-8">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="text-heading-1 text-4xl font-bold text-gray-900 mb-4">
             Premium Leather Bags
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
