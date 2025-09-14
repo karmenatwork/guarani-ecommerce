@@ -13,32 +13,31 @@ export interface FooterProps {
 }
 
 const defaultColumns: FooterColumn[] = [
-  {
-    title: "Featured",
-    links: [{ label: "Air Force 1" }, { label: "Huarache" }, { label: "Air Max 90" }, { label: "Air Max 95" }],
-  },
-  {
-    title: "Shoes",
-    links: [{ label: "All Shoes" }, { label: "Custom Shoes" }, { label: "Jordan Shoes" }, { label: "Running Shoes" }],
-  },
-  {
-    title: "Clothing",
-    links: [
-      { label: "All Clothing" },
-      { label: "Modest Wear" },
-      { label: "Hoodies & Pullovers" },
-      { label: "Shirts & Tops" },
-    ],
-  },
-  {
-    title: "Kids'",
-    links: [
-      { label: "Infant & Toddler Shoes" },
-      { label: "Kids' Shoes" },
-      { label: "Kids' Jordan Shoes" },
-      { label: "Kids' Basketball Shoes" },
-    ],
-  },
+    {
+        title: "Featured",
+        links: [{label: "Yerba Mate"}, {label: "Leather bags"} ],
+    },
+    {
+        title: "Bags",
+        links: [{label: "All Bags"}, {label: "Casual bags"}, {label: "Leather bags"}],
+    },
+
+    {
+        title: "Mate MISC",
+        links: [
+            {label: "Yerba Mate"},
+            {label: "Mate's guampa"},
+            {label: "Mate's bombilla"},
+        ],
+    },
+        {
+        title: "Clothing",
+        links: [
+            {label: "All Clothing"},
+            {label: "Kids's Clothing"},
+            {label: "Shirts & Tops"},
+        ],
+    },
 ];
 
 const defaultSocial = [
@@ -93,7 +92,7 @@ export default function Footer({
                   key={s.name}
                   href={s.href ?? "#"}
                   aria-label={label}
-                  className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[var(--color-light-100)]/5 ring-1 ring-[var(--color-dark-700)] hover:bg-[var(--color-light-100)]/10"
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[var(--color-light-100)] ring-1 ring-[var(--color-dark-700)] hover:bg-[var(--color-light-400)]"
                 >
                   <Image src={src} alt={label} width={18} height={18} />
                 </Link>

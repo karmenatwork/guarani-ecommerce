@@ -16,10 +16,9 @@ export interface NavbarProps {
 }
 
 const defaultLinks: NavLink[] = [
-  { label: "Men", href: "#" },
-  { label: "Women", href: "#" },
-  { label: "Kids", href: "#" },
-  { label: "Collections", href: "#" },
+  { label: "Leather Bags", href: "#" },
+  { label: "Mate MISC", href: "#" },
+  { label: "Clothing", href: "#" },
   { label: "Contact", href: "#" },
 ];
 
